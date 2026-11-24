@@ -1,0 +1,20 @@
+# Datos (se descargan aparte; ver README)
+*.csv
+*.zip
+*.tar
+*.parquet
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Sistema y secretos
+.env
+desktop.ini
+Thumbs.db
+.DS_Store
